@@ -41,7 +41,7 @@ app.post("/todos", (req,res) => {
 
 // route that returns a single todo based on the id provided
 app.get("/todos", (req,res) => {
-    console.log("GET /todos")
+    // console.log("GET /todos")
 
     res.json(db);
 })
